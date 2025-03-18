@@ -1,7 +1,8 @@
 # BombClock
 Installation Instructions:
-1. Extract all files to your preferred location
-2. Manually install the Digital Font or it wont work:
+1. Click on the latest release to the right
+2. Extract all files to your preferred location
+3. Manually install the Digital Font or it wont work:
    - Double-click the Assets folder
    - Double-click the Digital-7.ttf file
    - Click "Install" in the font preview window
