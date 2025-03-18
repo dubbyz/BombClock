@@ -1,0 +1,33 @@
+﻿<Window x:Class="BombClock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BombClock"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        ResizeMode="NoResize"
+        Width="258" Height="142">
+
+    <!-- 
+      We use a Grid with an Image + TextBlock stacked.
+      The Image has a fixed width/height and Stretch="Uniform", so
+      large images are scaled down to fit in 517×284.
+    -->
+    <Grid>
+        <!-- Bomb or Explosion image fills the 517×284 box, scaling if needed. -->
+        <Image x:Name="BombImage"
+               Width="258" Height="142"
+               Stretch="Uniform"
+               Opacity="0.7" />
+
+        <!-- Countdown text, centered in the window -->
+        <TextBlock x:Name="CountdownText"
+                   Foreground="Red"
+                   FontFamily="digital-7"
+                   FontSize="27"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="134,34,0,0" />
+    </Grid>
+</Window>
