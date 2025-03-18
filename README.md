@@ -12,4 +12,4 @@ You should now be able to run the BombClock!
 3. Press "START CLOCK"
 4. Enjoy!
 
-
+A Productivity timer inspired by @tokyospliff on youtube and made by me (jk lol vibe coded with ai)
